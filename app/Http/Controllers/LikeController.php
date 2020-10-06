@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Answer;
 use App\Like;
 use Auth;
 use App\Notifications\LikeAnswerNotification;
