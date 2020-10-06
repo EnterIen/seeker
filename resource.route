@@ -1,0 +1,11 @@
+使用了 `resource` 方法，对应的 URL 和控制器为
+
+|  请求方式 |       URI路径      | 控制器方法 | 路由名称
+|:---------:|:------------------:|:-------:|:------:|
+|    GET    |        /question      |  index  | question.index
+|    GET    |    /question/create   |  create | question.create
+|    POST   |        /question      |  store  | question.store
+|    GET    |   /question/{id}      |  show   | question.show
+|    GET    | /question/{id}/edit   |  edit   | question.edit
+| PUT/PATCH |	 /question/{id}     |  update | question.update
+|   DELETE  |	 /question/{id}     | destroy | question.destroy
