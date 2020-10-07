@@ -51,6 +51,7 @@
                             </li>
                         @else
                             <li class="nav-item nav-btn"><a class="btn btn-outline-success my-2 my-sm-0" href="{{ route('question.create') }}">提问</a></li>
+                             <li class="nav-item nav-btn"><a class="btn btn-outline-primary my-2 my-sm-0" href="{{ url('/') }}">大厅</a></li>
                             <li class="nav-item nav-btn">
 <a href="{{ route('notification.show') }}" class="btn btn-outline-warning my-2 my-sm-0"> 通知
 <span id="noti-num" data-id="{{ Auth::id() }}" class="badge">
